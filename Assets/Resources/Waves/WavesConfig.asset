@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa47fe8686f741389fb858fc392a1c9b, type: 3}
+  m_Name: WavesConfig
+  m_EditorClassIdentifier: 
+  waves:
+  - prefab: {fileID: 5564829530432564287, guid: 135aebce6ccd84047a073eef03f5e466,
+      type: 3}
+    count: 2
+    spawnRate: 2
+    delay: 4
+  - prefab: {fileID: 2979770151718453881, guid: fb53fab94d8980840990b94ec93de58b,
+      type: 3}
+    count: 3
+    spawnRate: 2
+    delay: 15
+  - prefab: {fileID: 2979770151718453881, guid: 259c56453898e81498ef908cdfac4df2,
+      type: 3}
+    count: 3
+    spawnRate: 1.5
+    delay: 15
+  - prefab: {fileID: 5295565432918345405, guid: c44e0cf7a4e8ff04d842404bf5c741e2,
+      type: 3}
+    count: 3
+    spawnRate: 10
+    delay: 20
